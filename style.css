@@ -142,3 +142,33 @@ footer {
     border: none;
     cursor: pointer;
 }
+
+/* ... (your existing styles) */
+
+/* Feature Cards */
+.feature-cards .card img {
+    max-width: 100%; /* Or a specific width like 200px */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* How It Works */
+.how-it-works .step img {
+    max-width: 80px;  /* Adjust as needed */
+    height: auto;
+    margin-bottom: 10px; /* Add some spacing below the image */
+}
+
+/* Testimonials */
+.testimonial-content {
+    position: relative; /* Needed for absolute positioning of the icon */
+    text-align: center;
+}
+
+.quote-icon {
+    position: absolute;
+    top: -20px; /* Adjust positioning as needed */
+    left: 50%;
+    transform: translateX(-50%); /* Center the icon */
+    width: 40px; /* Adjust size */
+    height: auto;
+}
