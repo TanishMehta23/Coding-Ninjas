@@ -1,0 +1,144 @@
+/* Basic Styling */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+/* Hero Section Styles */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Feature Cards Styles */
+.features {
+    padding: 40px;
+    text-align: center;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+/* How It Works Styles */
+.how-it-works {
+    padding: 40px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.step {
+    width: 30%;
+}
+
+.step span {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.2em;
+}
+
+/* Mentors Styles */
+.mentors {
+    padding: 40px;
+    text-align: center;
+}
+
+.mentor-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Testimonial Styles */
+.testimonial {
+    padding: 40px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.newsletter {
+    margin-bottom: 20px;
+}
+
+.newsletter input {
+    padding: 10px;
+    border: none;
+}
+
+.newsletter button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
